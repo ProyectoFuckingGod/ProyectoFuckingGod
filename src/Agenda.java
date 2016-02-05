@@ -8,6 +8,17 @@ public class Agenda {
     contactos = new Persona[tamaño];
   }
 
+  public boolean añadir(Persona contacto) {
+        if (siguiente < contactos.length) {
+            contactos[siguiente++] = contacto;
+            //agenda[posLibre++] = contacto; --> otra posible solucion
+            return true;
+        } else {
+            return false;
+        }
+    }
+  
+  /*
   public boolean añadir(Persona persona) {
 
     if (siguiente >= contactos.length) {
@@ -19,6 +30,7 @@ public class Agenda {
     }
 
   }
+*/
 
   public String getTelefono(String nombre) {
 
