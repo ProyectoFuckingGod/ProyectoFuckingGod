@@ -3,7 +3,7 @@ public class Test {
 
   public static void main(String[] args) {
 
-    System.out.println("Probando 1, 2, 3 RECREO!");
+    System.out.println("ola k ase shur!");
     Persona persona1 = new Persona("Juan", "956259749");
     Persona persona2 = new Persona("Victor", "622131990");
     Persona persona3 = new Persona("Noemi", "645987597");
